@@ -2,4 +2,80 @@ body {
     background-image: url('../images/beautiful-shot-misty-foggy-mysterious-forest.jpg');
     background-size: cover;
     background-repeat: no-repeat;
+    margin-top: 20px;
+}
+
+.logo {
+    max-width: 400px;
+}
+
+p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.5rem;
+    color: #0A3641;
+}
+
+h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 2rem;
+    color: #0A3641;
+}
+
+.product_image {
+    max-width: 150px;
+    max-height: 150px;
+}
+
+.product {
+    background-color: #C0DCDF;
+    max-width: 400px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.floated {
+    float:;
+}
+
+section::after {
+    content: '';
+    clear: both;
+    display: table;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.container_products {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+@media only screen and (min-width: 600px) {
+    .container_products {
+        flex-direction: row;
+    }
+}
+
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 4.5rem;
+    color: #ACC3CC;
+}
+
+.intro {
+    font-family:  'Oswald', sans-serif;
+    font-size: 3rem;
+    color: #ACC3CC;
+}
+
+.intro2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 2rem;
+    color: #ACC3CC;
 }
