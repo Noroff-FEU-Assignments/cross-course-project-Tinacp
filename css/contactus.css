@@ -7,8 +7,6 @@ body{
 }
 
 footer {
-    display: flex;
-    justify-content: space-between;
     position: fixed;
     bottom: 0;
     width: 90%;
@@ -57,4 +55,45 @@ nav {
 
 .logo {
     max-width: 300px;
+}
+
+section {
+    background-color: #E4EFF1;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    max-width: 80%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.contactcontainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.contactinfo {
+    margin: 5px;
+}
+
+h1 {
+    float: right;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:#0A3641;
+    font-size: 7rem;
+}
+
+h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:#0A3641;
+}
+
+h3 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:#0A3641;
+}
+
+p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:#0A3641;
 }
