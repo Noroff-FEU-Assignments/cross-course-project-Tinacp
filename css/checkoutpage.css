@@ -1,3 +1,39 @@
+body{
+    background-image: url('../images/rainydays_background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20px;
+    margin-top: 20px;
+    display: grid;
+    grid-gap: 2em;
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+}
+
+#footer-links {
+    display: inline-block;
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #E4EFF1;
+}
+
+#footer-links a {
+    color: #E4EFF1;
+}
+
+a {
+    color:#0A3641;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+}
+
 nav {
     display: none;
 }
@@ -8,4 +44,26 @@ nav {
 
 #hamburger-menu:checked ~ nav {
     display: block;
+}
+
+.logo {
+    max-width: 300px;
+}
+
+section {
+    background-color: #E4EFF1;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    max-width: 80%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.form__input {
+    display: block;
+}
+
+main {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }

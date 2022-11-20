@@ -1,27 +1,70 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Rainy Days - Contact Us</title>
-    <meta name="description" content="A page with contact information for the online store Rainy Days">
+    <title>Rainy Days - Checkout</title>
+    <meta name="description" content="The checkoutpage at Rainy Days">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://kit.fontawesome.com/4ba2b05131.js" crossorigin="anonymous"></script>
+    <link href="css/checkoutpage.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/4ba2b05131.js" crossorigin="anonymous"></script>
-    <link href="css/contactus.css" rel="stylesheet">
   </head>
   <body>
-    <label for="hamburger-menu"><i class="fa-solid fa-bars"></i></i></label>
-    <input type="checkbox" id="hamburger-menu">
-    <nav>
-        <ul>
-            <li>Home</li>
-            <li>Shop</li>
-            <li>About Us</li>
-            <li>Contact Us</li>
-        </ul>
-    </nav>
+    <header>
+        <label for="hamburger-menu"><i class="fa-solid fa-bars"></i></i></label>
+        <input type="checkbox" id="hamburger-menu">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="aboutus.html">About US</a></li>
+                <li><a href="contactus.html">Contact Us</a></li>
+            </ul>
+        </nav>
+        <img src="images/RainyDays_Logo.png" alt="The logo of Rainy Days" class="logo"
+        <button><a href="checkoutpage.html"><i class="fa-solid fa-cart-shopping"></i></a></button>
+   </header>
+   <main>
+      <section class="container">
+        <form action="form-success.php" method="POST">
+          <fieldset>
+            <legend>Shipping details</legend>
+            <label for="name">Your name</label>
+            <input type="text" name="name" id="name" class="form__input" required>
+            <label for="phone">Your phone number</label>
+            <input type="tel" name="phone" id="phone" class="form__input" required>
+            <label for="email">Your email</label>
+            <input type="email" name="email" id="email" class="form__input" required>
+            <label for="adress">Your adress</label>
+            <input type="adress" name="adress" id="adress" class="form__input">
+            <input type="checkbox" name="subscribe" id="subscribe">
+            <label for="subscribe">Subscribe to newsletter</label>
+          </fieldset>
+          <fieldset>
+            <legend>Payment</legend>
+            <input type="radio" id="creditcard" name="payment" value="creditcard">
+            <label for="creditcard">Credit Card</label>
+            <input type="radio" id="paypal" name="payment" value="paypal">
+            <label for="paypal">PayPal</label>
+          </fieldset>
+          <input type="checkbox" name="accept" id="accept">
+          <label for="accept">I've read and Accept the terms & conditions*</label>
+          <input type="submit" value="Checkout">
+        </form>
+     </section>
+   </main>
    <footer>
+    <div>
+      <ul>
+        <li id="footer-links"><a href="contactus.html">Contact Us</a></li>
+        <li id="footer-links"><a href="aboutus.html">About Us</a></li>
+        <li id="footer-links">Privacy Policy</li>
+        <li id="footer-links"><a href="questions.html">Q&A</a></li>
+        <li id="footer-links"><a href="checkoutpage.html">Checkout</a></li>
+        <li id="footer-links"><a href="index.html">Home</a></li>
+      </ul>
+    </div>
    </footer>
   </body>
 </html>  
