@@ -4,36 +4,29 @@ body{
     background-repeat: no-repeat;
     padding: 20px;
     margin-top: 20px;
+    display: grid;
+    grid-gap: 2em;
 }
 
 footer {
-    position: fixed;
-    bottom: 0;
-    width: 90%;
-    max-height: 10px
-    padding: 10px
-}
-
-.logo-footer {
-    float: left;
-    max-width: 50px;
-    max-height: 50px;
+    width: 100%;
+    text-align: center;
 }
 
 #footer-links {
     display: inline-block;
     padding: 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #0A3641;
+    color: #E4EFF1;
+}
+
+#footer-links a {
+    color: #E4EFF1;
 }
 
 a {
     color:#0A3641;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-.some {
-    float: right;
 }
 
 header {
@@ -78,18 +71,18 @@ section {
 
 h1 {
     float: right;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color:#0A3641;
-    font-size: 7rem;
+    font-family: 'Oswald', sans-serif;
+    color: #0A3641;
+    font-size: 6rem;
 }
 
 h2 {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Oswald', sans-serif;
     color:#0A3641;
 }
 
 h3 {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Oswald', sans-serif;
     color:#0A3641;
 }
 
