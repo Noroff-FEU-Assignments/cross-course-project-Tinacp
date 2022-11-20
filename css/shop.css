@@ -1,3 +1,39 @@
+body{
+    background-image: url('../images/Background-shop.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20px;
+    margin-top: 20px;
+    display: grid;
+    grid-gap: 2em;
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+}
+
+#footer-links {
+    display: inline-block;
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #0A3641;
+}
+
+#footer-links a {
+    color: #0A3641;
+}
+
+a {
+    color:#0A3641;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+}
+
 nav {
     display: none;
 }
@@ -8,4 +44,40 @@ nav {
 
 #hamburger-menu:checked ~ nav {
     display: block;
+}
+
+.logo {
+    max-width: 300px;
+}
+
+section {
+  padding: 20px;
+    margin-top: 50px;
+}
+
+.container {
+    display: grid;
+    grid-gap: 20px;
+}
+
+img {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 2rem;
+    color: #0A3641; 
+}
+
+h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1rem;
+    color: #0A3641;
+}
+
+p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #0A3641;
 }

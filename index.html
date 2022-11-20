@@ -8,19 +8,23 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
     <link href="css/index.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/4ba2b05131.js" crossorigin="anonymous"></script>
   </head>
   <body>
     <header>
-      <img src="images/RainyDays_Logo.png" alt="The logo of Rainy Days" class="logo center"
+      <label for="hamburger-menu"><i class="fa-solid fa-bars"></i></i></label>
+      <input type="checkbox" id="hamburger-menu">
       <nav>
-        <ul>
-          <li>Home</li>
-          <li>Shop</li>
-          <li>About Us</li>
-          <li>Contact Us</li>
-        </ul>
+          <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="shop.html">Shop</a></li>
+              <li><a href="aboutus.html">About US</a></li>
+              <li><a href="contactus.html">Contact Us</a></li>
+          </ul>
       </nav>
-    </header>
+      <img src="images/RainyDays_Logo.png" alt="The logo of Rainy Days" class="logo"
+      <button><a href="checkoutpage.html"><i class="fa-solid fa-cart-shopping"></i></a></button>
+ </header>
     <main>
       <section class="container_products">
         <div class="product floated">
@@ -42,14 +46,24 @@
           <p>$90</p>
         </div>
       </section>
-      <section>
-       <h1 class="center">Push your Comfort Zone</h1>
-       <p class="intro center">on the wildest and craziest adventures withouht ever having to think about wet clothes ever again!</p>
-       <p class="intro2 center">Our extremely waterproof and breathable rain jackets  protect you on the wettest days.</p>
-       <p class="intro2 center"> All our rain gear features our innovative weather protection technology, designed with input from professionals who need a heavy-duty shield from the elements. </p>
+      <section class="container_information">
+       <h1>Push your Comfort Zone</h1>
+       <p class="info-paragraph">on the wildest and craziest adventures withouht ever having to think about wet clothes ever again!</p>
+       <p class="info-paragraph-2">Our extremely waterproof and breathable rain jackets  protect you on the wettest days.</p>
+       <p class="info-paragraph-2"> All our rain gear features our innovative weather protection technology, designed with input from professionals who need a heavy-duty shield from the elements. </p>
       </section>
     </main>
     <footer>
-    </footer>
-  </body>
-</html>
+      <div>
+        <ul>
+          <li id="footer-links"><a href="contactus.html">Contact Us</a></li>
+          <li id="footer-links"><a href="aboutus.html">About Us</a></li>
+          <li id="footer-links">Privacy Policy</li>
+          <li id="footer-links"><a href="questions.html">Q&A</a></li>
+          <li id="footer-links"><a href="checkoutpage.html">Checkout</a></li>
+          <li id="footer-links"><a href="index.html">Home</a></li>
+        </ul>
+      </div>
+     </footer>
+    </body>
+  </html>  
